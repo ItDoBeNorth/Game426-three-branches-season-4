@@ -1,4 +1,4 @@
-# Days at Three Branches agent
+# Days at Three Branches(Living Village) agent
 
 Edit `agent.py` to give every one of your villagers a routine. The platform runs a separate `Agent` instance for each NPC, so instances do not share variables or memory. The supplied `sandbox/` directory contains the local runner, types, and village helpers. Leave it unchanged, and leave `requirements.in` and `requirements.txt` alone: the pinned packages match the server.
 
