@@ -39,3 +39,11 @@ Test the connection with:
 ```console
 python -m sandbox llm
 ```
+
+## Reflection
+Season 4: With Day and Night now available, I was able to make tasks and behaviours that used to be by tick now be by time. With a day cycle in place, I also added more time-of-day-specific actions and rules for each role. For example, the lighters now stay up at night and light up the place, and wake other villagers up at dawn. Villagers not only have tasks, but also a plan for gatherings, socialising, and reacting to the visitor based on the time of day and their role; most roles have this so they work and socialise with their roles, work more, gather with everyone at the inn, and then greet their family and sleep. Chat is also now time-aware. Villagers that get startled now introduce the players to others as 'a scary person'.
+
+## AI Use Disclosure and Reflection
+I used Claude Code in VS Code. It coded all of this based on my pseudocode and instructions. I verified sets of code it wrote before approving it, reverted and asked for changes as needed, tested by watching and eval, and discussed my ideas for solutions before committing to one. I did not write any code directly, but watched what Claude was doing to check it. I had it set to ask for approval before committing anything, and that worked especially during testing and understanding what code was being changed. Planning mode helped a lot, and I was able to go through each step slowly to understand what's going on. However, Claude has started to run more complicated commands I don't understand in order to read my older code and test. It might get too fast for me to understand whats going on most of the time. The code has gotten quite complicated as well. 
+
+
