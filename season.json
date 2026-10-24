@@ -1,0 +1,8 @@
+{
+  "env_id": "three_branches",
+  "season": "Season 4: Day and night",
+  "parameters": {
+    "seat_plan": "cast_10",
+    "daynight": true
+  }
+}
